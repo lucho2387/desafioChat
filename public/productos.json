@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Mayonesa",
+    "price": "120",
+    "imagen": "https://asset-americas.unileversolutions.com/content/dam/unilever/hellmann_s_world/argentina/pack_shot/7794000004849.01-36594740-png.png.ulenscale.420x420.png"
+  },
+  {
+    "title": "Savora",
+    "price": "80",
+    "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/680286-1200-auto?v=637744887393130000&width=1200&height=auto&aspect=true"
+  },
+  {
+    "title": "Pancho",
+    "price": "180",
+    "imagen": "https://media.minutouno.com/p/0d9739388c49b70bd9a107ae56dc8d1e/adjuntos/150/imagenes/038/105/0038105149/730x0/smart/super-pancho.jpg"
+  },
+  {
+    "title": "Manteca",
+    "price": "200",
+    "imagen": "https://www.laserenisimavaatucasa.com.ar/wp-content/uploads/2021/01/7790742345806.png"
+  }
+]

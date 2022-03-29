@@ -1,0 +1,13 @@
+<form class="formProductos" onsubmit="return addProduct(this)">
+        <div class="container mt-5">
+            <div class="container mb-4 text-center">
+                <h4>Nuevo Producto</h2>
+            </div>
+            <input class="form-control form-control-sm mb-2" type="text" placeholder="Title" aria-label=".form-control-lg example" name="title" id="title" onkeyup="camposFormVacios()">
+            <input class="form-control form-control-sm mb-2" type="text" placeholder="Price" aria-label=".form-control-lg example" name="price" id="price"  onkeyup="camposFormVacios()" pattern="^[0-9]+" title="Solo se permiten numeros">
+            <input class="form-control form-control-sm mb-2" type="text" placeholder="www.imagenweb.com.ar" aria-label=".form-control-lg example" name="imagen" id="imagen"  onkeyup="camposFormVacios()">
+            <div class="d-grid gap-2">
+                <button class="form-control btn btn-outline-dark mb-2" type="submit" id="botonGuardar">Guardar</button>
+            </div>
+        </div>  
+</form>

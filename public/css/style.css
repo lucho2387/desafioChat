@@ -1,0 +1,24 @@
+.piePagina {
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+}
+
+.formChat {
+    margin-bottom: 80px;
+}
+
+#fecha {
+    display: none;
+}

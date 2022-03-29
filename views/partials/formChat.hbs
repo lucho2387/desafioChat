@@ -1,0 +1,14 @@
+<form class="formChat" onsubmit="return addMessage(this)">
+    <div class="container mt-5">
+        <div class="container mb-4 text-center">
+            <h4>My Chat App</h2>
+        </div>
+        <input class="form-control form-control-sm mb-2" type="text" placeholder="luis@gmail.com" aria-label=".form-control-lg example" name="username" id="username" onkeyup="campoNombreVacio();" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingrese un correo valido">
+        <input class="form-control form-control-sm mb-2" type="text" aria-label=".form-control-lg example" name="fecha" id="fecha">
+        <input class="form-control form-control-sm mb-2" type="text" placeholder="Mensaje..." aria-label=".form-control-lg example" name="texto" id="texto" onkeyup="campoMensajeVacio();">
+        <div class="d-grid gap-2">
+            <button class="form-control btn btn-outline-dark mb-2" type="submit" id="botonEnviar">Enviar</button>
+        </div>
+        <div id="messages"></div>
+    </div>
+</form>
