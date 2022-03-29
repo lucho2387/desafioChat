@@ -50,15 +50,23 @@ const cargarProductos = async() => {
             const datos = await respuesta.json()
 
             contenido = ''
-            datos.forEach(producto => {
-                contenido += `
-                                        <tr>
-                                            <td class="col-md-2">${producto.title}</td>
-                                            <td class="col-md-2">${producto.price}</td>
-                                            <td class="col-md-2"><img style="width:10%" src=${producto.imagen}></td>
-                                        </tr>
-                                    `
-            })
+            if(datos.length){
+                datos.forEach(producto => {
+                    contenido += `
+                                <tr>
+                                    <td class="col-md-2">${producto.title}</td>
+                                    <td class="col-md-2">${producto.price}</td>
+                                    <td class="col-md-2"><img style="width:10%" src=${producto.imagen}></td>
+                                </tr>
+                                `
+                })
+            }else {
+                contenido = `
+                            <tr>
+                                <td colspan="5">No hay Productos</td>
+                            </tr>
+                            `
+            }
 
             document.getElementById('productos').innerHTML = contenido
 
